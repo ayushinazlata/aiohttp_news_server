@@ -1,0 +1,40 @@
+# Общие
+.DS_Store
+*.log
+.env
+.env.*
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Виртуальные окружения
+venv/
+*/venv/
+
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# React build
+frontend/build/
+
+# Django
+db.sqlite3
+*.sqlite3
+
+# Docker
+*.pid
+*.sock
+
+# Кэш IDE и редакторов
+.idea/
+.vscode/
+*.swp
+
+# Тесты и временные файлы
+coverage/
+*.cover
+*.tmp
+*.bak
